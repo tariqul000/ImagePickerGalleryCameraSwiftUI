@@ -14,6 +14,10 @@
 		B806B6602788A5A70009CB79 /* ImagePickerGalleryCameraSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B806B65F2788A5A70009CB79 /* ImagePickerGalleryCameraSwiftUITests.swift */; };
 		B806B66A2788A5A70009CB79 /* ImagePickerGalleryCameraSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B806B6692788A5A70009CB79 /* ImagePickerGalleryCameraSwiftUIUITests.swift */; };
 		B806B66C2788A5A70009CB79 /* ImagePickerGalleryCameraSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B806B66B2788A5A70009CB79 /* ImagePickerGalleryCameraSwiftUIUITestsLaunchTests.swift */; };
+		B806B6792788A5EA0009CB79 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B806B6782788A5EA0009CB79 /* ImagePickerView.swift */; };
+		B8AE98852789F6DB00DAEA58 /* DragImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AE98842789F6DB00DAEA58 /* DragImageView.swift */; };
+		B8AE98872789F7E100DAEA58 /* DraggableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AE98862789F7E100DAEA58 /* DraggableImage.swift */; };
+		B8AE98892789F82200DAEA58 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AE98882789F82200DAEA58 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,11 @@
 		B806B6652788A5A70009CB79 /* ImagePickerGalleryCameraSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagePickerGalleryCameraSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B806B6692788A5A70009CB79 /* ImagePickerGalleryCameraSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerGalleryCameraSwiftUIUITests.swift; sourceTree = "<group>"; };
 		B806B66B2788A5A70009CB79 /* ImagePickerGalleryCameraSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerGalleryCameraSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B806B6782788A5EA0009CB79 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		B806B67A2788A6C90009CB79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B8AE98842789F6DB00DAEA58 /* DragImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragImageView.swift; sourceTree = "<group>"; };
+		B8AE98862789F7E100DAEA58 /* DraggableImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableImage.swift; sourceTree = "<group>"; };
+		B8AE98882789F82200DAEA58 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +103,15 @@
 		B806B64D2788A5A40009CB79 /* ImagePickerGalleryCameraSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				B806B67A2788A6C90009CB79 /* Info.plist */,
 				B806B64E2788A5A40009CB79 /* ImagePickerGalleryCameraSwiftUIApp.swift */,
+				B806B6782788A5EA0009CB79 /* ImagePickerView.swift */,
 				B806B6502788A5A40009CB79 /* ContentView.swift */,
 				B806B6522788A5A70009CB79 /* Assets.xcassets */,
 				B806B6542788A5A70009CB79 /* Preview Content */,
+				B8AE98842789F6DB00DAEA58 /* DragImageView.swift */,
+				B8AE98862789F7E100DAEA58 /* DraggableImage.swift */,
+				B8AE98882789F82200DAEA58 /* ImagePicker.swift */,
 			);
 			path = ImagePickerGalleryCameraSwiftUI;
 			sourceTree = "<group>";
@@ -258,6 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B806B6512788A5A40009CB79 /* ContentView.swift in Sources */,
+				B806B6792788A5EA0009CB79 /* ImagePickerView.swift in Sources */,
+				B8AE98852789F6DB00DAEA58 /* DragImageView.swift in Sources */,
+				B8AE98892789F82200DAEA58 /* ImagePicker.swift in Sources */,
+				B8AE98872789F7E100DAEA58 /* DraggableImage.swift in Sources */,
 				B806B64F2788A5A40009CB79 /* ImagePickerGalleryCameraSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +440,9 @@
 				DEVELOPMENT_TEAM = K4FG2YP6BG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ImagePickerGalleryCameraSwiftUI/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "we need you camera permition";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +472,9 @@
 				DEVELOPMENT_TEAM = K4FG2YP6BG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ImagePickerGalleryCameraSwiftUI/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "we need you camera permition";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
