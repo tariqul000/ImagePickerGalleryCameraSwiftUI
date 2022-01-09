@@ -51,7 +51,7 @@ struct DragImageView: View {
                 ImagePicker(sourceType: .photoLibrary, selectedImage: bindingForImage)
             }
             Spacer()
-        } .frame(width: UIScreen.main.bounds.size.width-100)
+        } .frame(width: UIScreen.main.bounds.size.width)
     }
     
     
@@ -75,8 +75,9 @@ struct DragImageView: View {
                                     addedImages.remove(at: 0)
                                 }
                         }.frame(maxWidth: (UIScreen.main.bounds.size.width/2)-50, alignment: .trailing)
-                    } .frame(width: (UIScreen.main.bounds.size.width/2)-60)
+                    }.padding(.bottom, 10)
                     
+                    .frame(width: (UIScreen.main.bounds.size.width/2)-50)
                 }
             }
             
