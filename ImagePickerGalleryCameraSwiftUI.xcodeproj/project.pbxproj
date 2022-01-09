@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0195735A278AD9DD003BB455 /* GridStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01957359278AD9DB003BB455 /* GridStack.swift */; };
 		B806B64F2788A5A40009CB79 /* ImagePickerGalleryCameraSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B806B64E2788A5A40009CB79 /* ImagePickerGalleryCameraSwiftUIApp.swift */; };
 		B806B6512788A5A40009CB79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B806B6502788A5A40009CB79 /* ContentView.swift */; };
 		B806B6532788A5A70009CB79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B806B6522788A5A70009CB79 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01957359278AD9DB003BB455 /* GridStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridStack.swift; sourceTree = "<group>"; };
 		B806B64B2788A5A40009CB79 /* ImagePickerGalleryCameraSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImagePickerGalleryCameraSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B806B64E2788A5A40009CB79 /* ImagePickerGalleryCameraSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerGalleryCameraSwiftUIApp.swift; sourceTree = "<group>"; };
 		B806B6502788A5A40009CB79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				B8AE98842789F6DB00DAEA58 /* DragImageView.swift */,
 				B8AE98862789F7E100DAEA58 /* DraggableImage.swift */,
 				B8AE98882789F82200DAEA58 /* ImagePicker.swift */,
+				01957359278AD9DB003BB455 /* GridStack.swift */,
 			);
 			path = ImagePickerGalleryCameraSwiftUI;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				B806B6792788A5EA0009CB79 /* ImagePickerView.swift in Sources */,
 				B8AE98852789F6DB00DAEA58 /* DragImageView.swift in Sources */,
 				B8AE98892789F82200DAEA58 /* ImagePicker.swift in Sources */,
+				0195735A278AD9DD003BB455 /* GridStack.swift in Sources */,
 				B8AE98872789F7E100DAEA58 /* DraggableImage.swift in Sources */,
 				B806B64F2788A5A40009CB79 /* ImagePickerGalleryCameraSwiftUIApp.swift in Sources */,
 			);
@@ -437,7 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ImagePickerGalleryCameraSwiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = K4FG2YP6BG;
+				DEVELOPMENT_TEAM = C6TV7JWFX4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ImagePickerGalleryCameraSwiftUI/Info.plist;
@@ -469,7 +473,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ImagePickerGalleryCameraSwiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = K4FG2YP6BG;
+				DEVELOPMENT_TEAM = C6TV7JWFX4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ImagePickerGalleryCameraSwiftUI/Info.plist;
